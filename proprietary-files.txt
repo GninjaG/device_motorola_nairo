@@ -292,6 +292,12 @@ vendor/firmware/novatek_ts_mp.bin
 vendor/firmware/tianma_Himax_firmware.bin
 vendor/firmware/tianma_Himax_mpfw.bin
 
+# Recovery firmware
+vendor/firmware/aw8695_haptic.bin:recovery/root/vendor/firmware/aw8695_haptic.bin
+vendor/firmware/aw8695_rtp.bin:recovery/root/vendor/firmware/aw8695_rtp.bin
+vendor/firmware/novatek_ts_fw.bin:recovery/root/vendor/firmware/novatek_ts_fw.bin
+vendor/firmware/novatek_ts_mp.bin:recovery/root/vendor/firmware/novatek_ts_mp.bin
+
 # Vibrator firmware
 vendor/firmware/aw8695_haptic.bin
 vendor/firmware/aw8695_rtp_Argo_Navis.bin
