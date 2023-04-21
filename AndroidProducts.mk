@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_nairo.mk
+    $(LOCAL_DIR)/lmodroid_nairo.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_nairo-eng \
-    lineage_nairo-user \
-    lineage_nairo-userdebug
+    lmodroid_nairo-eng \
+    lmodroid_nairo-user \
+    lmodroid_nairo-userdebug
