@@ -54,6 +54,27 @@ TARGET_PRODUCT_PROP += $(DEVICE_PATH)/product.prop
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
+# Copy to recovery
+BOARD_RECOVERY_RAMDISK_KERNEL_MODULES_LOAD := \
+    utags \
+    mmi_annotate \
+    mmi_info \
+    tzlog_dump \
+    mmi_sys_temp \
+    qpnp-power-on-mmi \
+    wl2864c \
+    qpnp-smbcharger-mmi \
+    mcDrvModule \
+    exfat \
+    aw8695 \
+    sensors_class \
+    mmi_relay \
+    sx933x_sar \
+    nova_0flash_mmi \
+    mmi_sigprint
+
+RECOVERY_KERNEL_MODULES := $(addsuffix .ko,$(subst _,-,$(BOARD_RECOVERY_RAMDISK_KERNEL_MODULES_LOAD)))
+
 # Security
 VENDOR_SECURITY_PATCH := 2022-09-01
 
