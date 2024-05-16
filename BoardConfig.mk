@@ -70,8 +70,7 @@ BOARD_RECOVERY_RAMDISK_KERNEL_MODULES_LOAD := \
     sensors_class \
     mmi_relay \
     sx933x_sar \
-    nova_0flash_mmi \
-    mmi_sigprint
+    nova_0flash_mmi
 
 RECOVERY_KERNEL_MODULES := $(addsuffix .ko,$(BOARD_RECOVERY_RAMDISK_KERNEL_MODULES_LOAD))
 
