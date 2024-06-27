@@ -1,0 +1,4 @@
+runtime_resource_overlay {
+    name: "LineageSystemUIVariant3",
+    product_specific: true,
+}

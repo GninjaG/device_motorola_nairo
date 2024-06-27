@@ -34,6 +34,13 @@ PRODUCT_PACKAGES += \
     AvoidAppsInCutoutOverlay \
     NoCutoutOverlay
 
+# SKU specific RROs
+PRODUCT_PACKAGES += \
+    LineageSystemUIVariant1 \
+    LineageSystemUIVariant2 \
+    LineageSystemUIVariant3 \
+
+
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.soundtrigger@2.2-impl \
