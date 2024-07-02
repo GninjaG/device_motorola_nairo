@@ -88,9 +88,10 @@ PRODUCT_BOOT_JARS += qcom.fmradio
 
 # Init
 PRODUCT_PACKAGES += \
+    init.mmi.overlay.rc \
     init.oem.fingerprint.sh \
     init.oem.fingerprint2.sh \
-    init.mmi.overlay.rc
+    init.qti.chg_policy.sh
 
 # Lights
 PRODUCT_PACKAGES += \
