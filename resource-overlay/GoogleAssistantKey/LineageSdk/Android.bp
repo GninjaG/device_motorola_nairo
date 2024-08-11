@@ -1,4 +1,4 @@
 runtime_resource_overlay {
-    name: "LineageSystemUIVariant1",
+    name: "LineageSdkGoogleAssistantKey",
     product_specific: true,
 }

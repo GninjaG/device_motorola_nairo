@@ -36,10 +36,7 @@ PRODUCT_PACKAGES += \
 
 # SKU specific RROs
 PRODUCT_PACKAGES += \
-    LineageSystemUIVariant1 \
-    LineageSystemUIVariant2 \
-    LineageSystemUIVariant3 \
-
+    LineageSdkGoogleAssistantKey
 
 # Audio
 PRODUCT_PACKAGES += \
