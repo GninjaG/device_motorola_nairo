@@ -2,7 +2,7 @@
 # Copyright (C) 2017-2020 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
+# You may not use this file except in compliance with the License.
 # You may obtain a copy of the License at
 #
 #      http://www.apache.org/licenses/LICENSE-2.0
@@ -22,10 +22,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/motorola/nairo/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lmodroid/config/common_full_phone.mk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lmodroid_nairo
+PRODUCT_NAME := lineage_nairo
 PRODUCT_DEVICE := nairo
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := moto g 5G plus

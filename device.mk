@@ -19,6 +19,9 @@ $(call inherit-product, device/motorola/sm7250-common/common.mk)
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/motorola/nairo/nairo-vendor.mk)
 
+# Audio (Dolby Atmos)
+$(call inherit-product, vendor/motorola-dolby/setup.mk)
+
 # Properties
 -include $(LOCAL_PATH)/properties.mk
 

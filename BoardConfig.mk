@@ -38,6 +38,7 @@ TARGET_KERNEL_ADDITIONAL_FLAGS += \
 
 # Partitions
 BOARD_DTBOIMG_PARTITION_SIZE := 4194304
+BOARD_EROFS_PCLUSTER_SIZE := 65536
 
 # ODM
 ODM_MANIFEST_SKUS := \
@@ -79,3 +80,9 @@ VENDOR_SECURITY_PATCH := 2022-09-01
 
 # SELinux
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
+
+# Disable sparse on erofs filesystem images
+TARGET_USERIMAGES_SPARSE_EROFS_DISABLED := true
+
+# log
+# androidboot.selinux=permissive loglevel=7
