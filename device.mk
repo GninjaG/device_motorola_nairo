@@ -42,6 +42,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.soundtrigger@2.2-impl
 
+# Dolby
+$(call inherit-product, hardware/motorola/dolby/setup.mk)
+
 # audio.primary.lito shim
 PRODUCT_PACKAGES += \
     android.hardware.power-V1-ndk_platform.vendor
